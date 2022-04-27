@@ -19,9 +19,9 @@ There are two parts to the challenge this year - [a front-end challenge](/FRONTE
 
 Please note that we are only looking for effort, and that your solution is just a part of our discussion with you during the interview so don't worry if your solution is *hacky* or even if it doesn't work, submit it anyways, we want to see it!
 
-For the front-end challenge, you are tasked to build the pagination feature for Star Wars University's new face book.
+For the front-end challenge, you are tasked to build a front end solution for MFA code validation.
 
-For the back-end challenge, you are tasked to build a robust data structure that can handle string queries for a fictional online learning service.
+For the back-end challenge, you are tasked to build a Wordle API that supports sessions and validation.
 
 The challenge is due at **Wednesday May 25th, 9:00 AM**. Your submission must be done through GitHub issues, more details about submission can be found in the individual challenge README files.
 
