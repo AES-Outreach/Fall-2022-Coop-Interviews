@@ -11,13 +11,13 @@ Multifactor authentication (MFA) adds a layer of protection to the sign-in proce
 
 The API for MFA code validation will be available at `https://coop-interview.outstem.io/`
 
-Details on this API will be available in the resources section.
+Details on this API will be available in the Testing API Documentation section.
 
 ## Requirements
 
 *The styling for this challenge is up to you, feel free to use any UI libraries*
 
-This challenge has multiple goals that increase in level of difficulty. Implement as many of these goals as you are able to
+This challenge has multiple goals that increase in level of difficulty, implement as many of these goals as you are able to.
 
 ### Goal 1: Basic input field with validation
 - For this goal, implement a basic input field that only accepts 6 digit numbers
@@ -83,9 +83,9 @@ Please submit your solution in the 2022 Fall interview GitHub repository via Git
 4. Fill out the form
 5. Click **Submit New Issue**
 6. Done! Thank you for completing the challenge, we look forward to discussing your solution with you during the interview. 🎉
-## Resources
 
-### Testing API Documentation
+
+## Testing API Documentation
 
 **URL**: `https://coop-interview.outstem.io/`
 **Method** POST
@@ -107,12 +107,12 @@ Please submit your solution in the 2022 Fall interview GitHub repository via Git
 }
 ```
 
-#### Test Data
+### Testing API Documentation
 We have hard-coded a few MFA codes to provide you test cases for your solution:
 
-Correct MFA Code: 123456
+Correct MFA Code: `123456`
 
-Throw an 500 error MFA Code: 000000
+Throw an 500 error MFA Code: `000000`
 
 
 
