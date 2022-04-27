@@ -41,7 +41,7 @@ This challenge has multiple goals that increase in level of difficulty. Implemen
 ### Goal 6: Pasting Optimization
 - For this goal, when the user pastes a 6 digit number into the first input box, it should chain these numbers into each input box and automatically trigger the validation of the code
 
-### Goal 7: Pasting Optimization
+### Goal 7: Password Mode
 - For this goal, add a password mode the user can enable that masks the inputs with an asterisk instead of showing the digits
 
 
