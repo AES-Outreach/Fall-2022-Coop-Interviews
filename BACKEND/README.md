@@ -174,6 +174,7 @@ You will be evaluated on:
 - Testing: is the system adequately tested?
 - Best Practices: does your solution use Javascript/TypeScript's and your chosen framework's best practices
 
+
 ## Submission
 
 Please submit your solution in the 2022 Fall interview GitHub repository via GitHub Issue. 
@@ -187,3 +188,6 @@ Please submit your solution in the 2022 Fall interview GitHub repository via Git
 4. Fill out the form
 5. Click **Submit New Issue**
 6. Done! Thank you for completing the challenge, we look forward to discussing your solution with you during the interview. 🎉
+
+## Bonus Challenges
+- Add an extra endpoint at `/history` to fetch all the previous guesses and their results for this session key
