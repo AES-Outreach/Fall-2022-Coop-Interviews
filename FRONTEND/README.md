@@ -80,7 +80,7 @@ Please submit your solution in the 2022 Fall interview GitHub repository via Git
 
 ## Testing API Documentation
 
-**URL**: `https://coop-interview.outstem.io/`
+**URL**: `https://coop-interview.outstem.io/validate`
 
 **Method** POST
 
