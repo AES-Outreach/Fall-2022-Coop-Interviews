@@ -109,7 +109,6 @@ Returns valid response: `123456`
 Throws a 500 error: `000000`
 
 
-
 ## Bonus Challenges
 
 - Make your UI responsive, that is usable of all screen sizes

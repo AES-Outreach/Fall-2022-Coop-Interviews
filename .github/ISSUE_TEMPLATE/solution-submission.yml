@@ -31,7 +31,7 @@ body:
     id: source-url
     attributes:
       label: Source Code URL
-      description: If you did the front-end project, this would be the CodeSandbox URL, if you did the back-end challenge, please submit your repo URL or repl.it URL.
+      description: Please submit your repo URL or repl.it URL.
     validations:
       required: true
   - type: input
