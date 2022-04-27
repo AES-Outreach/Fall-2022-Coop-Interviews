@@ -29,7 +29,7 @@ This challenge has multiple goals that increase in level of difficulty. Implemen
 ### Goal 3: Pasting Optimization
 - For this goal, the user should be able to copy paste a 6 digit number into the input field and this should automatically trigger the validation of the code
 
-**More Challenging Goals**
+**-- More Challenging Goals --**
 ### Goal 4: Separate Input Fields
 - For this goal, each digit will be given its own input field.
 - On submit, the page should validate with the API provided and show correct or incorrect depending on the results
