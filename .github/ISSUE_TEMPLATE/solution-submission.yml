@@ -1,0 +1,55 @@
+name: Solution Submission
+description: Submit your OutStem coding challenge solution
+title: '[Submission]: YOUR_NAME coding challenge submission'
+assignees:
+  - ebivibe
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for completing the OutStem Coding Challenge! 🎉🎉
+
+        Please submit your solution using this form.
+  - type: input
+    id: contact
+    attributes:
+      label: Your Name
+      placeholder: ex. John Smith
+    validations:
+      required: true
+  - type: dropdown
+    id: challenge
+    attributes:
+      label: Which challenge did you attempt?
+      options:
+        - Front-end
+        - Back-end
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source Code URL
+      description: If you did the front-end project, this would be the CodeSandbox URL, if you did the back-end challenge, please submit your repo URL or repl.it URL.
+    validations:
+      required: true
+  - type: input
+    id: hosted-url
+    attributes:
+      label: Hosted URL
+      description: If you did the front-end challenge and have your project hosted online this is the URL for your hosted project.
+  - type: textarea
+    id: run-instructions
+    attributes:
+      label: Run instructions
+      description: Explain how to properly run your app.
+      placeholder: |
+        1. Do this...
+        2. Do that...
+        3. ...
+        4. Profit.
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else you would like us to know?
