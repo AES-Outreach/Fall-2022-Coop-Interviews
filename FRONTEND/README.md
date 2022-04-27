@@ -13,7 +13,7 @@ The API for MFA code validation will be available at `https://coop-interview.out
 
 Details on this API will be available in the Testing API Documentation section.
 
-## Requirements
+## Goals
 
 *The styling for this challenge is up to you, feel free to use any UI libraries*
 
@@ -44,13 +44,6 @@ This challenge has multiple goals that increase in level of difficulty, implemen
 ### Goal 7: Password Mode
 - For this goal, add a password mode the user can enable that masks the inputs with an asterisk instead of showing the digits
 
-
-
-
-### Bonuses
-
-- Make your UI responsive, that is usable of all screen sizes
-- Implement any other features you think would provide a better MFA experience
 
 ## Your solution
 
@@ -88,6 +81,7 @@ Please submit your solution in the 2022 Fall interview GitHub repository via Git
 ## Testing API Documentation
 
 **URL**: `https://coop-interview.outstem.io/`
+
 **Method** POST
 
 **Request Body Example**
@@ -107,12 +101,16 @@ Please submit your solution in the 2022 Fall interview GitHub repository via Git
 }
 ```
 
-### Testing API Documentation
+### Test MFA Codes
 We have hard-coded a few MFA codes to provide you test cases for your solution:
 
-Correct MFA Code: `123456`
+Returns valid response: `123456`
 
-Throw an 500 error MFA Code: `000000`
+Throws a 500 error: `000000`
 
 
 
+## Bonus Challenges
+
+- Make your UI responsive, that is usable of all screen sizes
+- Implement any other features you think would provide a better MFA experience
