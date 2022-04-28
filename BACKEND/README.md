@@ -171,7 +171,7 @@ You will be evaluated on:
 - Completeness: did you complete the features?
 - Correctness: does the functionality act in sensible, thought-out ways?
 - Maintainability: is it written in a clean, maintainable way?
-- Testing: is the system adequately tested though automated tests?
+- Testing: is the system adequately tested through automated tests?
 - Best Practices: does your solution use your chosen language & framework's best practices
 
 
