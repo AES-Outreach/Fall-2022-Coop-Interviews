@@ -31,7 +31,7 @@ Method: GET
 Description: This endpoint will chose a secret 5 letter word, and provide a session key to the user that lets the user keep making guesses for this word
 
 **Response Body Example:**
-*Note: the session key can have the format of your choosing as long as they're unique for the generated word*
+*Note: the session key can have the format of your choosing as long as the session key maps to a unique word.*
 ```
 {
   "session_key": "3912837alskjd198237123"
@@ -171,8 +171,8 @@ You will be evaluated on:
 - Completeness: did you complete the features?
 - Correctness: does the functionality act in sensible, thought-out ways?
 - Maintainability: is it written in a clean, maintainable way?
-- Testing: is the system adequately tested?
-- Best Practices: does your solution use Javascript/TypeScript's and your chosen framework's best practices
+- Testing: is the system adequately tested though automated tests?
+- Best Practices: does your solution use your chosen language & framework's best practices
 
 
 ## Submission

@@ -38,11 +38,12 @@ This challenge has multiple goals that increase in level of difficulty, implemen
 - For this goal, copy pasting a 6 digit number in the first input box should chain these into each input box
 - Make sure to look for edge cases to ensure a good user experience
 
-### Goal 6: Pasting Optimization
-- For this goal, when the user pastes a 6 digit number into the first input box, it should chain these numbers into each input box and automatically trigger the validation of the code
+### Goal 6: Chained Pasting Optimization
+- For this goal, you will reimplement goal 3 but for the chained input boxes
+- Copy pasting a 6 digit number in the first input box should chain these into each input box *and* automatically trigger the validation of the code
 
 ### Goal 7: Password Mode
-- For this goal, add a password mode the user can enable that masks the inputs with an asterisk instead of showing the digits
+- For this goal, add a password mode the *user* can enable that masks the inputs with an asterisk instead of showing the digits
 
 
 ## Your solution
@@ -111,5 +112,5 @@ Throws a 500 error: `000000`
 
 ## Bonus Challenges
 
-- Make your UI responsive, that is usable of all screen sizes
+- Make your UI responsive, that is usable on all screen sizes
 - Implement any other features you think would provide a better MFA experience
